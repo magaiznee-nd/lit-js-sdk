@@ -1,6 +1,6 @@
 {
   "name": "@overdive/lit-js-sdk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "scripts": {
     "reset:hard": "yarn reset && sh ./tools/scripts/reset.sh",
