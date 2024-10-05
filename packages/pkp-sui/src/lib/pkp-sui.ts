@@ -30,8 +30,8 @@ import { secp256k1 } from '@noble/curves/secp256k1';
 import { blake2b } from '@noble/hashes/blake2b';
 import { sha256 } from '@noble/hashes/sha256';
 
-import { PKPBase } from '@lit-protocol/pkp-base';
-import { PKPBaseProp, PKPWallet, SigResponse } from '@lit-protocol/types';
+import { PKPBase } from '@overdive/pkp-base';
+import { PKPBaseProp, PKPWallet, SigResponse } from '@overdive/types';
 
 import { getDigestFromBytes } from './TransactionBlockData';
 

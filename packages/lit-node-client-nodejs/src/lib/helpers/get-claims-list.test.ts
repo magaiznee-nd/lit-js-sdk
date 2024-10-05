@@ -1,4 +1,4 @@
-import { NodeShare } from '@lit-protocol/types';
+import { NodeShare } from '@overdive/types';
 import { getClaimsList } from './get-claims-list';
 
 describe('getClaimsList', () => {

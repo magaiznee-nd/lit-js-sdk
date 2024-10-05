@@ -1,4 +1,4 @@
-import { NodeShare } from '@lit-protocol/types';
+import { NodeShare } from '@overdive/types';
 import { processLitActionResponseStrategy } from './process-lit-action-response-strategy';
 import { assert } from 'console';
 

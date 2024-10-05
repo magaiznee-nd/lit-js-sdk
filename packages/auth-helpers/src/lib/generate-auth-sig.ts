@@ -1,4 +1,4 @@
-import { AuthSig, SignerLike } from '@lit-protocol/types';
+import { AuthSig, SignerLike } from '@overdive/types';
 import { ethers } from 'ethers';
 
 /**

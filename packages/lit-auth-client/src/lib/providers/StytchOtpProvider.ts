@@ -1,13 +1,13 @@
-import { AuthMethodType } from '@lit-protocol/constants';
+import { AuthMethodType } from '@overdive/constants';
 import {
   AuthMethod,
   BaseAuthenticateOptions,
   BaseProviderOptions,
   StytchOtpAuthenticateOptions,
   StytchToken,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 import { BaseProvider } from './BaseProvider';
-import { StytchOtpProviderOptions } from '@lit-protocol/types';
+import { StytchOtpProviderOptions } from '@overdive/types';
 import { ethers } from 'ethers';
 
 export class StytchOtpProvider extends BaseProvider {

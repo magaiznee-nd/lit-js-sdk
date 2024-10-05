@@ -1,5 +1,5 @@
-import { log } from '@lit-protocol/misc';
-import { BlsResponseData, BlsSignatureShare } from '@lit-protocol/types';
+import { log } from '@overdive/misc';
+import { BlsResponseData, BlsSignatureShare } from '@overdive/types';
 
 /**
  * Get the BLS signatures from the response data.

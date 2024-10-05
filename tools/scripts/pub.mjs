@@ -85,7 +85,7 @@ const type =
   OPTION === '--tag'
     ? `TAG => ${VALUE}
 
-  You will need to install like this: yarn add @lit-protocol/lit-node-client@${VALUE}`
+  You will need to install like this: yarn add @overdive/lit-node-client@${VALUE}`
     : 'PRODUCTION';
 
 greenLog(

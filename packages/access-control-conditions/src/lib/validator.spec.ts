@@ -1,11 +1,11 @@
-import { LIT_ERROR } from '@lit-protocol/constants';
+import { LIT_ERROR } from '@overdive/constants';
 import {
   AccessControlConditions,
   EvmContractConditions,
   SolRpcConditions,
   UnifiedAccessControlConditions,
   NodeClientErrorV1,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 
 import {
   validateAccessControlConditionsSchema,

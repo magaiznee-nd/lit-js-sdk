@@ -3,8 +3,8 @@ import {
   ethRequestHandler,
   methodHandlers,
   isEthRequest,
-} from '@lit-protocol/pkp-ethers';
-import { LIT_CHAINS } from '@lit-protocol/constants';
+} from '@overdive/pkp-ethers';
+import { LIT_CHAINS } from '@overdive/constants';
 import { Core } from '@walletconnect/core';
 import {
   IWeb3Wallet,
@@ -28,8 +28,8 @@ import {
   SessionTypes,
   SignClientTypes,
 } from '@walletconnect/types';
-import { PKPClient } from '@lit-protocol/pkp-client';
-import { PKPBase } from '@lit-protocol/pkp-base';
+import { PKPClient } from '@overdive/pkp-client';
+import { PKPBase } from '@overdive/pkp-base';
 
 const DEFAULT_RELAY_URL = 'wss://relay.walletconnect.com';
 

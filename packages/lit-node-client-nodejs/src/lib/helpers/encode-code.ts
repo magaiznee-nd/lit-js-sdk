@@ -1,7 +1,7 @@
 import {
   uint8arrayFromString,
   uint8arrayToString,
-} from '@lit-protocol/uint8arrays';
+} from '@overdive/uint8arrays';
 
 /**
  * Encodes the given code string into base64 format.

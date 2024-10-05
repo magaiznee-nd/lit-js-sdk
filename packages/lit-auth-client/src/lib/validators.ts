@@ -1,4 +1,4 @@
-import { MintRequestBody } from '@lit-protocol/types';
+import { MintRequestBody } from '@overdive/types';
 
 export const validateMintRequestBody = (
   customArgs: Partial<MintRequestBody>

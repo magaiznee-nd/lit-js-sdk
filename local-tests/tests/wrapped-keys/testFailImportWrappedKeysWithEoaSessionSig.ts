@@ -1,5 +1,5 @@
 import { TinnyEnvironment } from 'local-tests/setup/tinny-environment';
-import { api } from '@lit-protocol/wrapped-keys';
+import { api } from '@overdive/wrapped-keys';
 import { getEoaSessionSigs } from 'local-tests/setup/session-sigs/get-eoa-session-sigs';
 import { randomSolanaPrivateKey } from 'local-tests/setup/tinny-utils';
 

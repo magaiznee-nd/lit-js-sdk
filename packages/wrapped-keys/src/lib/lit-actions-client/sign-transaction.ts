@@ -2,7 +2,7 @@ import {
   AccessControlConditions,
   ILitNodeClient,
   SessionSigsMap,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 
 import { postLitActionValidation } from './utils';
 import {
@@ -10,7 +10,7 @@ import {
   SerializedTransaction,
   StoredKeyData,
 } from '../types';
-import { GLOBAL_OVERWRITE_IPFS_CODE_BY_NETWORK } from '@lit-protocol/constants';
+import { GLOBAL_OVERWRITE_IPFS_CODE_BY_NETWORK } from '@overdive/constants';
 
 interface SignTransactionWithLitActionParams {
   litNodeClient: ILitNodeClient;

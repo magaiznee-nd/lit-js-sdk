@@ -1,7 +1,7 @@
 import { TinnyEnvironment } from 'local-tests/setup/tinny-environment';
-import { api } from '@lit-protocol/wrapped-keys';
+import { api } from '@overdive/wrapped-keys';
 import { randomSolanaPrivateKey } from 'local-tests/setup/tinny-utils';
-import { SessionSigsMap } from '@lit-protocol/types';
+import { SessionSigsMap } from '@overdive/types';
 
 const { importPrivateKey } = api;
 

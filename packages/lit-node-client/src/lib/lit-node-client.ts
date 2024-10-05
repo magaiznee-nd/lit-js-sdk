@@ -1,9 +1,9 @@
-import { checkAndSignAuthMessage } from '@lit-protocol/auth-browser';
-import { EITHER_TYPE } from '@lit-protocol/constants';
-import { LitNodeClientNodeJs } from '@lit-protocol/lit-node-client-nodejs';
-import { isNode, log } from '@lit-protocol/misc';
-import { getStorageItem } from '@lit-protocol/misc-browser';
-import { CustomNetwork, LitNodeClientConfig } from '@lit-protocol/types';
+import { checkAndSignAuthMessage } from '@overdive/auth-browser';
+import { EITHER_TYPE } from '@overdive/constants';
+import { LitNodeClientNodeJs } from '@overdive/lit-node-client-nodejs';
+import { isNode, log } from '@overdive/misc';
+import { getStorageItem } from '@overdive/misc-browser';
+import { CustomNetwork, LitNodeClientConfig } from '@overdive/types';
 
 /**
  * You can find all these available networks in the `constants` package
@@ -11,7 +11,7 @@ import { CustomNetwork, LitNodeClientConfig } from '@lit-protocol/types';
  * @example
  *
  * ```
- * import { LitNetwork } from '@lit-protocol/constants';
+ * import { LitNetwork } from '@overdive/constants';
  * 
  * const litNodeClient = new LitNodeClient({
     litNetwork: LitNetwork.Habanero,

@@ -4,9 +4,9 @@ import {
   LitPKPResource,
   createSiweMessageWithRecaps,
   generateAuthSig,
-} from '@lit-protocol/auth-helpers';
-import { PKPEthersWallet } from '@lit-protocol/pkp-ethers';
-import { AuthCallbackParams, AuthSig } from '@lit-protocol/types';
+} from '@overdive/auth-helpers';
+import { PKPEthersWallet } from '@overdive/pkp-ethers';
+import { AuthCallbackParams, AuthSig } from '@overdive/types';
 import { TinnyEnvironment } from 'local-tests/setup/tinny-environment';
 
 /**

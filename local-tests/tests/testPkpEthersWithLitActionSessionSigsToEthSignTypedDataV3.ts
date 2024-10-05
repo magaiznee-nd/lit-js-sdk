@@ -1,4 +1,4 @@
-import { PKPEthersWallet, ethRequestHandler } from '@lit-protocol/pkp-ethers';
+import { PKPEthersWallet, ethRequestHandler } from '@overdive/pkp-ethers';
 import { TinnyEnvironment } from 'local-tests/setup/tinny-environment';
 import {
   SignTypedDataVersion,

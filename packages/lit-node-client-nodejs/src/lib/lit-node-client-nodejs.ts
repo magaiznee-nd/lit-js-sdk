@@ -14,8 +14,8 @@ import {
   createSiweMessageWithCapacityDelegation,
   createSiweMessageWithRecaps,
   createSiweMessage,
-} from '@lit-protocol/auth-helpers';
-import * as blsSdk from '@lit-protocol/bls-sdk';
+} from '@overdive/auth-helpers';
+import * as blsSdk from '@overdive/bls-sdk';
 import {
   AuthMethodType,
   EITHER_TYPE,
@@ -28,16 +28,16 @@ import {
   LIT_SESSION_KEY_URI,
   LOCAL_STORAGE_KEYS,
   LitNetwork,
-} from '@lit-protocol/constants';
-import { LitCore, composeLitUrl } from '@lit-protocol/core';
+} from '@overdive/constants';
+import { LitCore, composeLitUrl } from '@overdive/core';
 import {
   combineEcdsaShares,
   combineSignatureShares,
   encrypt,
   generateSessionKeyPair,
   verifyAndDecryptWithSignatureShares,
-} from '@lit-protocol/crypto';
-import { safeParams } from '@lit-protocol/encryption';
+} from '@overdive/crypto';
+import { safeParams } from '@overdive/encryption';
 import {
   defaultMintClaimCallback,
   findMostCommonResponse,
@@ -51,17 +51,17 @@ import {
   removeHexPrefix,
   throwError,
   validateSessionSigs,
-} from '@lit-protocol/misc';
+} from '@overdive/misc';
 import {
   getStorageItem,
   removeStorageItem,
   setStorageItem,
-} from '@lit-protocol/misc-browser';
-import { nacl } from '@lit-protocol/nacl';
+} from '@overdive/misc-browser';
+import { nacl } from '@overdive/nacl';
 import {
   uint8arrayFromString,
   uint8arrayToString,
-} from '@lit-protocol/uint8arrays';
+} from '@overdive/uint8arrays';
 
 import { encodeCode } from './helpers/encode-code';
 import { getBlsSignatures } from './helpers/get-bls-signatures';
@@ -130,7 +130,7 @@ import type {
   SigningAccessControlConditionRequest,
   JsonPKPClaimKeyRequest,
   IpfsOptions,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 
 export class LitNodeClientNodeJs
   extends LitCore

@@ -4,7 +4,7 @@ import {
   ParsedSessionMessage,
   ParsedSignedMessage,
   SessionSigsMap,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 
 interface ValidationResult {
   isValid: boolean;

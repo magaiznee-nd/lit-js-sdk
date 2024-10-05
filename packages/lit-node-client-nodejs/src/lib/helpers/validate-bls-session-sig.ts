@@ -1,5 +1,5 @@
-import { AuthSig } from '@lit-protocol/types';
-import { uint8arrayToString } from '@lit-protocol/uint8arrays';
+import { AuthSig } from '@overdive/types';
+import { uint8arrayToString } from '@overdive/uint8arrays';
 import { ethers } from 'ethers';
 import { SiweError, SiweErrorType, SiweMessage } from 'siwe';
 

@@ -10,7 +10,7 @@ import {
  * Lit resrouce ability request builder for creating resource ability requests.
  * 
  * @example
- * import { ResourceAbilityRequestBuilder } from '@lit-protocol/auth-helpers';
+ * import { ResourceAbilityRequestBuilder } from '@overdive/auth-helpers';
 
 const builder = new ResourceAbilityRequestBuilder();
 

@@ -1,7 +1,7 @@
-import { log } from '@lit-protocol/misc';
+import { log } from '@overdive/misc';
 import { ethers } from 'ethers';
 import { TinnyEnvironment } from 'local-tests/setup/tinny-environment';
-import { api, EthereumLitTransaction } from '@lit-protocol/wrapped-keys';
+import { api, EthereumLitTransaction } from '@overdive/wrapped-keys';
 import { getPkpSessionSigs } from 'local-tests/setup/session-sigs/get-pkp-session-sigs';
 import { getBaseTransactionForNetwork } from './util';
 

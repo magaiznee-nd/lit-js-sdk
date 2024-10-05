@@ -1,5 +1,5 @@
-import { LitNodeClient } from '@lit-protocol/lit-node-client';
-import { LitContractResolverContext } from '@lit-protocol/types';
+import { LitNodeClient } from '@overdive/lit-node-client';
+import { LitContractResolverContext } from '@overdive/types';
 
 export enum LIT_TESTNET {
   LOCALCHAIN = 'localchain',

@@ -1,5 +1,5 @@
-import { getLoggerbyId } from '@lit-protocol/misc';
-import { LoginUrlParams } from '@lit-protocol/types';
+import { getLoggerbyId } from '@overdive/misc';
+import { LoginUrlParams } from '@overdive/types';
 import * as cbor from 'cbor-web';
 
 export const STATE_PARAM_KEY = 'lit-state-param';

@@ -1,4 +1,4 @@
-import { ILitError, LIT_ERROR } from '@lit-protocol/constants';
+import { ILitError, LIT_ERROR } from '@overdive/constants';
 
 import {
   ABIParams,
@@ -13,9 +13,9 @@ import {
   EvmContractConditions,
   JsonSigningResourceId,
   UnifiedAccessControlConditions,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 
-import { throwError } from '@lit-protocol/misc';
+import { throwError } from '@overdive/misc';
 
 /** ---------- Local Functions ---------- */
 /**

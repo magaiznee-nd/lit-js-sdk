@@ -1,4 +1,4 @@
-import { StytchToken } from '@lit-protocol/types';
+import { StytchToken } from '@overdive/types';
 import { ethers } from 'ethers';
 
 export type FactorParser = 'email' | 'sms' | 'whatsApp' | 'totp';

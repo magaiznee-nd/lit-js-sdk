@@ -4,22 +4,22 @@ import {
   RPC_MAP,
   TinnyEnvConfig,
 } from './tinny-config';
-import { LitNodeClient } from '@lit-protocol/lit-node-client';
-import { LitContracts } from '@lit-protocol/contracts-sdk';
+import { LitNodeClient } from '@overdive/lit-node-client';
+import { LitContracts } from '@overdive/contracts-sdk';
 import {
   AuthSig,
   CosmosAuthSig,
   LitContractContext,
   LitContractResolverContext,
   SolanaAuthSig,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 import { TinnyPerson } from './tinny-person';
 
 import { ethers, Signer } from 'ethers';
-import { createSiweMessage, generateAuthSig } from '@lit-protocol/auth-helpers';
+import { createSiweMessage, generateAuthSig } from '@overdive/auth-helpers';
 import { ShivaClient, TestnetClient } from './shiva-client';
 import { toErrorWithMessage } from './tinny-utils';
-import { CENTRALISATION_BY_NETWORK } from '@lit-protocol/constants';
+import { CENTRALISATION_BY_NETWORK } from '@overdive/constants';
 
 console.log('checking env', process.env['DEBUG']);
 export class TinnyEnvironment {

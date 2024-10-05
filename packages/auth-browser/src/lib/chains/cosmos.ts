@@ -1,17 +1,17 @@
 import {
   uint8arrayFromString,
   uint8arrayToString,
-} from '@lit-protocol/uint8arrays';
+} from '@overdive/uint8arrays';
 
 import {
   AUTH_SIGNATURE_BODY,
   LIT_COSMOS_CHAINS,
   LIT_ERROR,
   LOCAL_STORAGE_KEYS,
-} from '@lit-protocol/constants';
+} from '@overdive/constants';
 
-import { AuthSig, CosmosWalletType } from '@lit-protocol/types';
-import { log, sortedObject, throwError } from '@lit-protocol/misc';
+import { AuthSig, CosmosWalletType } from '@overdive/types';
+import { log, sortedObject, throwError } from '@overdive/misc';
 
 /** ---------- Declaration ---------- */
 declare global {

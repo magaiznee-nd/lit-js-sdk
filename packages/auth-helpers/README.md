@@ -5,13 +5,13 @@ This submodule manages permissions and capabilities related to accessing specifi
 ### node.js / browser
 
 ```
-yarn add @lit-protocol/auth-helpers
+yarn add @overdive/auth-helpers
 ```
 
 ### Vanilla JS (UMD)
 
 ```js
-<script src="https://cdn.jsdelivr.net/npm/@lit-protocol/auth-helpers-vanilla/auth-helpers.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@overdive/auth-helpers-vanilla/auth-helpers.js"></script>
 <script>
   console.log(LitJsSdk_authHelpers);
 </script>

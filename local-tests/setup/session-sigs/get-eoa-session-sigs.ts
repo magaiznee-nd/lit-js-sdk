@@ -3,16 +3,16 @@ import {
   LitPKPResource,
   generateAuthSig,
   createSiweMessageWithRecaps,
-} from '@lit-protocol/auth-helpers';
+} from '@overdive/auth-helpers';
 import {
   AuthCallbackParams,
   AuthSig,
   LitAbility,
   LitResourceAbilityRequest,
-} from '@lit-protocol/types';
-import { log } from '@lit-protocol/misc';
+} from '@overdive/types';
+import { log } from '@overdive/misc';
 import { ethers } from 'ethers';
-import { CENTRALISATION_BY_NETWORK, LitNetwork } from '@lit-protocol/constants';
+import { CENTRALISATION_BY_NETWORK, LitNetwork } from '@overdive/constants';
 import { TinnyPerson } from '../tinny-person';
 import { TinnyEnvironment } from '../tinny-environment';
 

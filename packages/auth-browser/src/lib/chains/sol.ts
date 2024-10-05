@@ -6,17 +6,17 @@ import {
   IEither,
   LIT_ERROR,
   LOCAL_STORAGE_KEYS,
-} from '@lit-protocol/constants';
+} from '@overdive/constants';
 
-import { IProvider, AuthSig } from '@lit-protocol/types';
-import { log, throwError } from '@lit-protocol/misc';
-import { getStorageItem } from '@lit-protocol/misc-browser';
+import { IProvider, AuthSig } from '@overdive/types';
+import { log, throwError } from '@overdive/misc';
+import { getStorageItem } from '@overdive/misc-browser';
 // import { toString as uint8arrayToString } from 'uint8arrays';
 
 import {
   uint8arrayFromString,
   uint8arrayToString,
-} from '@lit-protocol/uint8arrays';
+} from '@overdive/uint8arrays';
 
 /**
  *

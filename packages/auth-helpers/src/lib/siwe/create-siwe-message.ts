@@ -1,10 +1,10 @@
 import { SiweMessage } from 'siwe';
-import { BaseSiweMessage, CapacityDelegationFields } from '@lit-protocol/types';
+import { BaseSiweMessage, CapacityDelegationFields } from '@overdive/types';
 import {
   LitAbility,
   WithCapacityDelegation,
   WithRecap,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 import { LitRLIResource } from '../resources';
 
 import {

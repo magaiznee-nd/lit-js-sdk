@@ -6,7 +6,7 @@ import {
   datilDev,
   datilTest,
   datil,
-} from '@lit-protocol/contracts';
+} from '@overdive/contracts';
 
 /**
  * Mapping of network context by network value.

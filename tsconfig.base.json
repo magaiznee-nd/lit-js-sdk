@@ -17,7 +17,7 @@
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
     "paths": {
-      "@lit-protocol/*": ["packages/*/src"]
+      "@overdive/*": ["packages/*/src"]
     }
   },
   "exclude": ["node_modules", "tmp"]

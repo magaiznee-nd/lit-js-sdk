@@ -3,8 +3,8 @@ import {
   AuthenticateOptions,
   BaseProviderOptions,
   OAuthProviderOptions,
-} from '@lit-protocol/types';
-import { AuthMethodType } from '@lit-protocol/constants';
+} from '@overdive/types';
+import { AuthMethodType } from '@overdive/constants';
 import {
   prepareLoginUrl,
   parseLoginParams,

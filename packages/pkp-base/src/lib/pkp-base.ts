@@ -10,8 +10,8 @@
 
 import { publicKeyConvert } from 'secp256k1';
 
-import { LitNodeClient } from '@lit-protocol/lit-node-client';
-import { logError } from '@lit-protocol/misc';
+import { LitNodeClient } from '@overdive/lit-node-client';
+import { logError } from '@overdive/misc';
 import {
   AuthenticationProps,
   JsonExecutionSdkParams,
@@ -22,7 +22,7 @@ import {
   RPCUrls,
   AuthMethod,
   SessionSigsMap,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 
 /**
  * Compresses a given public key.

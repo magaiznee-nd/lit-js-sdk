@@ -1,14 +1,14 @@
 import { JSONSchemaType } from 'ajv';
-import { LIT_ERROR } from '@lit-protocol/constants';
+import { LIT_ERROR } from '@overdive/constants';
 import {
   AccessControlConditions,
   ConditionType,
   EvmContractConditions,
   SolRpcConditions,
   UnifiedAccessControlConditions,
-} from '@lit-protocol/types';
-import { checkSchema, throwError } from '@lit-protocol/misc';
-import { loadSchema } from '@lit-protocol/accs-schemas';
+} from '@overdive/types';
+import { checkSchema, throwError } from '@overdive/misc';
+import { loadSchema } from '@overdive/accs-schemas';
 
 const SCHEMA_NAME_MAP: { [K in ConditionType]: string } = {
   cosmos: 'LPACC_ATOM',

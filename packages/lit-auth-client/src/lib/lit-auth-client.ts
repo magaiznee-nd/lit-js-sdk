@@ -5,13 +5,13 @@ import {
   ProviderType,
   RELAYER_URL_BY_NETWORK,
   RPC_URL_BY_NETWORK,
-} from '@lit-protocol/constants';
-import { LitNodeClient } from '@lit-protocol/lit-node-client';
+} from '@overdive/constants';
+import { LitNodeClient } from '@overdive/lit-node-client';
 import {
   bootstrapLogManager,
   isSupportedLitNetwork,
   log,
-} from '@lit-protocol/misc';
+} from '@overdive/misc';
 import {
   AuthMethod,
   EthWalletProviderOptions,
@@ -22,7 +22,7 @@ import {
   ProviderOptions,
   StytchOtpProviderOptions,
   WebAuthnProviderOptions,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 
 import AppleProvider from './providers/AppleProvider';
 import { BaseProvider } from './providers/BaseProvider';

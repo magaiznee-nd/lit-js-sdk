@@ -11,7 +11,7 @@ Check out the [API reference](https://docs.lit-js-sdk-v2.litprotocol.com/modules
 Get started by installing the package:
 
 ```bash
-yarn add @lit-protocol/pkp-walletconnect
+yarn add @overdive/pkp-walletconnect
 ```
 
 ## 🙌 Contributing

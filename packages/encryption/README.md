@@ -5,13 +5,13 @@ This submodule provides encryption and decryption of contents (string, zip, etc.
 ### node.js / browser
 
 ```
-yarn add @lit-protocol/encryption
+yarn add @overdive/encryption
 ```
 
 ### Vanilla JS (UMD)
 
 ```js
-<script src="https://cdn.jsdelivr.net/npm/@lit-protocol/encryption-vanilla/encryption.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@overdive/encryption-vanilla/encryption.js"></script>
 <script>
   console.log(LitJsSdk_encryption);
 </script>

@@ -5,7 +5,7 @@ The `PKPCosmosWallet` class is a specialized wallet for the Cosmos blockchain, b
 # Getting Started
 
 ```
-yarn add @lit-protocol/pkp-cosmos
+yarn add @overdive/pkp-cosmos
 ```
 
 # Examples

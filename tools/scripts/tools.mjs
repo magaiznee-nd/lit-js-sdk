@@ -463,7 +463,7 @@ async function fixTsConfigFunc() {
   const TSCONFIG = JSON.parse(await readFile('tsconfig.json'));
 
   TSCONFIG.compilerOptions.paths = {
-    '@lit-protocol/*': ['packages/*/src'],
+    '@overdive/*': ['packages/*/src'],
   };
 
   await writeFile('tsconfig.json', JSON.stringify(TSCONFIG, null, 2));
@@ -655,8 +655,8 @@ async function matchVersionsFunc() {
 }
 
 async function validateDependencyVersions() {
-  const PREFIX = '@lit-protocol';
-  const ignoreList = ['@lit-protocol/accs-schemas', '@lit-protocol/contracts'];
+  const PREFIX = '@overdive';
+  const ignoreList = ['@overdive/accs-schemas', '@overdive/contracts'];
 
   const packageList = (await listDirsRecursive('./packages', false)).map(
     (item) => {
@@ -677,7 +677,7 @@ async function validateDependencyVersions() {
     let passes = 0;
     let fails = 0;
 
-    // search for dependencies that start with @lit-protocol
+    // search for dependencies that start with @overdive
     for (const [key, value] of Object.entries(dependencies)) {
       if (key.includes(PREFIX) && !ignoreList.includes(key)) {
         total++;

@@ -1,4 +1,4 @@
-import { log } from '@lit-protocol/misc';
+import { log } from '@overdive/misc';
 
 /**
  * Parses a response string into a JS object.

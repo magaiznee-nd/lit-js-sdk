@@ -2,11 +2,11 @@ import {
   LitAbility,
   LitActionResource,
   LitPKPResource,
-} from '@lit-protocol/auth-helpers';
+} from '@overdive/auth-helpers';
 import {
   AuthMethodScope,
   CENTRALISATION_BY_NETWORK,
-} from '@lit-protocol/constants';
+} from '@overdive/constants';
 import { TinnyEnvironment } from 'local-tests/setup/tinny-environment';
 import { stringToIpfsHash } from 'local-tests/setup/tinny-utils';
 

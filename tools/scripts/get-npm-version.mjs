@@ -15,7 +15,7 @@ export async function versionFunc() {
   greenLog(`Getting latest version from npm ${TAG}...`);
 
   let res = await fetch(
-    'https://registry.npmjs.org/@lit-protocol/lit-node-client'
+    'https://registry.npmjs.org/@overdive/lit-node-client'
   );
 
   res = await res.json();

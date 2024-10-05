@@ -5,7 +5,7 @@ import {
   AccsEVMParams,
   AccsSOLV2Params,
   UnifiedAccessControlConditions,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 
 // ---------- Test Cases ----------
 describe('humanizer.ts', () => {

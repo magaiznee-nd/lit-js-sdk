@@ -1,14 +1,14 @@
 import { joinSignature } from 'ethers/lib/utils';
 
-import { LIT_CURVE, LIT_ERROR } from '@lit-protocol/constants';
-import { combineEcdsaShares } from '@lit-protocol/crypto';
+import { LIT_CURVE, LIT_ERROR } from '@overdive/constants';
+import { combineEcdsaShares } from '@overdive/crypto';
 import {
   logErrorWithRequestId,
   logWithRequestId,
   mostCommonString,
   throwError,
-} from '@lit-protocol/misc';
-import { SigResponse, SigShare } from '@lit-protocol/types';
+} from '@overdive/misc';
+import { SigResponse, SigShare } from '@overdive/types';
 
 export const getFlattenShare = (share: any): SigShare => {
   // flatten the signature object so that the properties of the signature are top level

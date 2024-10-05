@@ -1,4 +1,4 @@
-import { AuthSig, LIT_NETWORKS_KEYS } from '@lit-protocol/types';
+import { AuthSig, LIT_NETWORKS_KEYS } from '@overdive/types';
 
 import { StoredKeyData } from '../types';
 

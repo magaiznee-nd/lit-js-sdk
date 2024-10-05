@@ -5,13 +5,13 @@ This submodule contains various utility functions for error handling, logging, t
 ### node.js / browser
 
 ```
-yarn add @lit-protocol/misc
+yarn add @overdive/misc
 ```
 
 ### Vanilla JS (UMD)
 
 ```js
-<script src="https://cdn.jsdelivr.net/npm/@lit-protocol/misc-vanilla/misc.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@overdive/misc-vanilla/misc.js"></script>
 <script>
   console.log(LitJsSdk_misc);
 </script>

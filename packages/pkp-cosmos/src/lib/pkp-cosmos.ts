@@ -33,13 +33,13 @@ import {
 } from '@cosmjs/stargate';
 import { SignDoc } from 'cosmjs-types/cosmos/tx/v1beta1/tx';
 
-import { PKPBase } from '@lit-protocol/pkp-base';
+import { PKPBase } from '@overdive/pkp-base';
 import {
   PKPClientHelpers,
   PKPCosmosWalletProp,
   PKPWallet,
   SigResponse,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 
 export { Long } from 'cosmjs-types/helpers';
 

@@ -1,6 +1,6 @@
-import { log } from '@lit-protocol/misc';
+import { log } from '@overdive/misc';
 import { TinnyEnvironment } from 'local-tests/setup/tinny-environment';
-import { SerializedTransaction, api } from '@lit-protocol/wrapped-keys';
+import { SerializedTransaction, api } from '@overdive/wrapped-keys';
 import {
   Connection,
   Keypair,

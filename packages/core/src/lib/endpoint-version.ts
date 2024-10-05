@@ -1,4 +1,4 @@
-import { LitEndpoint } from '@lit-protocol/types';
+import { LitEndpoint } from '@overdive/types';
 
 /**
  * Compose the Lit URL

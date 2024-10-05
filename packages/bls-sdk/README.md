@@ -7,13 +7,13 @@ https://github.com/LIT-Protocol/threshold_crypto_ui
 # Installation
 
 ```
-yarn add @lit-protocol/bls-sdk
+yarn add @overdive/bls-sdk
 ```
 
 # Usage
 
 ```js
-import { initWasmBlsSdk } from '@lit-protocol/bls-sdk';
+import { initWasmBlsSdk } from '@overdive/bls-sdk';
 
 initWasmBlsSdk().then((exports) => {
   globalThis.wasmExports = exports;

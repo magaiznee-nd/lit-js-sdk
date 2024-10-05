@@ -13,6 +13,6 @@ export {
   checkAndSignAuthMessage,
   ethConnect,
   disconnectWeb3,
-} from '@lit-protocol/auth-browser';
+} from '@overdive/auth-browser';
 
-export * from '@lit-protocol/lit-node-client-nodejs';
+export * from '@overdive/lit-node-client-nodejs';

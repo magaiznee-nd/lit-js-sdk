@@ -1,5 +1,5 @@
 import { isValidBooleanExpression } from './utils';
-import { AccsDefaultParams } from '@lit-protocol/types';
+import { AccsDefaultParams } from '@overdive/types';
 
 const conditionA: AccsDefaultParams = {
   contractAddress: '',

@@ -11,13 +11,13 @@ import {
   ERight,
   IEither,
   LIT_ERROR,
-} from '@lit-protocol/constants';
+} from '@overdive/constants';
 import {
   checkIfAuthSigRequiresChainParam,
   checkType,
   is,
   log,
-} from '@lit-protocol/misc';
+} from '@overdive/misc';
 import {
   AcceptedFileType,
   AccessControlConditions,
@@ -38,7 +38,7 @@ import {
   SessionSigsOrAuthSig,
   SolRpcConditions,
   UnifiedAccessControlConditions,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 
 import { isValidBooleanExpression } from './utils';
 

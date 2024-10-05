@@ -17,8 +17,8 @@ export const build = async () => {
       nodeExternalsPlugin({
         allowList: [
           'ethers',
-          '@lit-protocol/accs-schemas',
-          '@lit-protocol/contracts',
+          '@overdive/accs-schemas',
+          '@overdive/contracts',
           'crypto',
           'secp256k1',
         ],

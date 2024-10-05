@@ -1,5 +1,5 @@
 {
-  "name": "@lit-protocol/lit-auth-client",
+  "name": "@overdive/lit-auth-client",
   "version": "6.8.1",
   "type": "commonjs",
   "license": "MIT",

@@ -3,7 +3,7 @@ import {
   LITCosmosChain,
   LITEVMChain,
   LITSVMChain,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 
 import { INTERNAL_DEV } from './autogen_internal';
 import { LitNetwork } from '../enums';

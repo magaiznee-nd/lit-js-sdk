@@ -1,4 +1,4 @@
-import { LIT_ERROR } from '@lit-protocol/constants';
+import { LIT_ERROR } from '@overdive/constants';
 
 import {
   AccessControlConditions,
@@ -7,9 +7,9 @@ import {
   HumanizedAccsProps,
   SolRpcConditions,
   UnifiedAccessControlConditions,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 
-import { decimalPlaces, log, throwError } from '@lit-protocol/misc';
+import { decimalPlaces, log, throwError } from '@overdive/misc';
 import { formatEther, formatUnits } from 'ethers/lib/utils';
 
 /**

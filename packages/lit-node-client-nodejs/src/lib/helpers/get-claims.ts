@@ -1,4 +1,4 @@
-import { Signature } from '@lit-protocol/types';
+import { Signature } from '@overdive/types';
 import { ethers } from 'ethers';
 
 /**

@@ -1,4 +1,4 @@
-import { StytchToken } from '@lit-protocol/types';
+import { StytchToken } from '@overdive/types';
 import { ethers } from 'ethers';
 import * as jose from 'jose';
 /**

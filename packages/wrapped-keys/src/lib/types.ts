@@ -2,7 +2,7 @@ import {
   ILitNodeClient,
   LIT_NETWORKS_KEYS,
   SessionSigsMap,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 
 /** @typedef Network
  * The network type that the wrapped key will be used on.

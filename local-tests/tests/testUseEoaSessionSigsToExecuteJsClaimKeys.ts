@@ -1,15 +1,15 @@
-// import { LitContracts } from '@lit-protocol/contracts-sdk';
-// import { log } from '@lit-protocol/misc';
+// import { LitContracts } from '@overdive/contracts-sdk';
+// import { log } from '@overdive/misc';
 // import {
 //   ClaimRequest,
 //   ClaimResult,
 //   ClientClaimProcessor,
-// } from '@lit-protocol/types';
-import { LIT_ENDPOINT_VERSION } from '@lit-protocol/constants';
+// } from '@overdive/types';
+import { LIT_ENDPOINT_VERSION } from '@overdive/constants';
 import { LIT_TESTNET } from 'local-tests/setup/tinny-config';
 import { getEoaSessionSigs } from 'local-tests/setup/session-sigs/get-eoa-session-sigs';
 import { TinnyEnvironment } from 'local-tests/setup/tinny-environment';
-import { log } from '@lit-protocol/misc';
+import { log } from '@overdive/misc';
 
 /**
  * ## Scenario:

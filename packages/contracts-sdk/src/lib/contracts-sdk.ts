@@ -1,5 +1,5 @@
 /* eslint-disable import/order */
-import { isBrowser, isNode } from '@lit-protocol/misc';
+import { isBrowser, isNode } from '@overdive/misc';
 import {
   ContractName,
   CreateCustomAuthMethodRequest,
@@ -13,7 +13,7 @@ import {
   MintNextAndAddAuthMethods,
   MintWithAuthParams,
   MintWithAuthResponse,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 import bs58 from 'bs58';
 import { BigNumberish, BytesLike, ContractReceipt, ethers } from 'ethers';
 import { decToHex, hexToDec, intToIP } from './hex2dec';
@@ -60,8 +60,8 @@ import {
   LIT_NETWORK,
   HTTP,
   HTTPS,
-} from '@lit-protocol/constants';
-import { LogManager, Logger } from '@lit-protocol/logger';
+} from '@overdive/constants';
+import { LogManager, Logger } from '@overdive/logger';
 import { computeAddress } from 'ethers/lib/utils';
 import { IPubkeyRouter } from '../abis/PKPNFT.sol/PKPNFT';
 import { TokenInfo, derivedAddresses } from './addresses';

@@ -1,8 +1,8 @@
-import { AuthSig, LIT_NETWORKS_KEYS } from '@lit-protocol/types';
+import { AuthSig, LIT_NETWORKS_KEYS } from '@overdive/types';
 import {
   uint8arrayFromString,
   uint8ArrayToBase64,
-} from '@lit-protocol/uint8arrays';
+} from '@overdive/uint8arrays';
 
 import {
   LIT_SESSIONSIG_AUTHORIZATION_SCHEMA_PREFIX,

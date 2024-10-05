@@ -1,4 +1,4 @@
-import { LitNetwork } from '@lit-protocol/constants';
+import { LitNetwork } from '@overdive/constants';
 
 import { SupportedNetworks } from './types';
 

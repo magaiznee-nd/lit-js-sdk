@@ -2,8 +2,8 @@ import {
   LitActionResponseStrategy,
   ResponseStrategy,
   NodeShare,
-} from '@lit-protocol/types';
-import { log, logError } from '@lit-protocol/misc';
+} from '@overdive/types';
+import { log, logError } from '@overdive/misc';
 
 /**
  * Finds the most and least common object within an of objects array

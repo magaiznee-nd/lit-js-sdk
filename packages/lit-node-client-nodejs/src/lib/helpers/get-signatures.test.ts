@@ -1,5 +1,5 @@
-import { initWasmEcdsaSdk } from '@lit-protocol/ecdsa-sdk';
-import { SigResponse } from '@lit-protocol/types';
+import { initWasmEcdsaSdk } from '@overdive/ecdsa-sdk';
+import { SigResponse } from '@overdive/types';
 
 import { getSignatures } from './get-signatures';
 

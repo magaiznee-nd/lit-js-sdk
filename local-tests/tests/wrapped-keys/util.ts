@@ -1,7 +1,7 @@
-import { LIT_NETWORKS_KEYS } from '@lit-protocol/types';
-import { LIT_CHAINS } from '@lit-protocol/constants';
+import { LIT_NETWORKS_KEYS } from '@overdive/types';
+import { LIT_CHAINS } from '@overdive/constants';
 import { ethers } from 'ethers';
-import { EthereumLitTransaction } from '@lit-protocol/wrapped-keys';
+import { EthereumLitTransaction } from '@overdive/wrapped-keys';
 
 export function getChainForNetwork(network: LIT_NETWORKS_KEYS): {
   chain: string;

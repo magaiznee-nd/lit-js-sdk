@@ -7,7 +7,7 @@ Note: Since LitAction uses WebAssembly, additional settings are required to use 
 # Getting Started
 
 ```
-yarn add @lit-protocol/pkp-sui @mysten/sui.js
+yarn add @overdive/pkp-sui @mysten/sui.js
 ```
 
 # Examples
@@ -15,7 +15,7 @@ yarn add @lit-protocol/pkp-sui @mysten/sui.js
 ## Create a wallet and get the address
 
 ```typescript
-import { PKPSuiWallet } from '@lit-protocol/pkp-sui';
+import { PKPSuiWallet } from '@overdive/pkp-sui';
 import { JsonRpcProvider, mainnetConnection } from '@mysten/sui.js';
 
 const pkpSuiWallet = new PKPSuiWallet(

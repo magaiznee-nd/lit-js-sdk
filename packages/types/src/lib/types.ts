@@ -5,7 +5,7 @@ import {
   LPACC_EVM_CONTRACT,
   LPACC_SOL,
   LPACC_EVM_BASIC,
-} from '@lit-protocol/accs-schemas';
+} from '@overdive/accs-schemas';
 
 import { AuthMethodType } from './enums';
 import {

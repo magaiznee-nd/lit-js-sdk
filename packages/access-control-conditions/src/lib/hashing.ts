@@ -1,4 +1,4 @@
-import { LIT_ERROR } from '@lit-protocol/constants';
+import { LIT_ERROR } from '@overdive/constants';
 
 import {
   AccessControlConditions,
@@ -7,9 +7,9 @@ import {
   JsonSigningResourceId,
   SolRpcConditions,
   UnifiedAccessControlConditions,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 
-import { log, throwError } from '@lit-protocol/misc';
+import { log, throwError } from '@overdive/misc';
 import {
   canonicalAccessControlConditionFormatter,
   canonicalEVMContractConditionFormatter,
@@ -17,7 +17,7 @@ import {
   canonicalSolRpcConditionFormatter,
   canonicalUnifiedAccessControlConditionFormatter,
 } from './canonicalFormatter';
-import { uint8arrayToString } from '@lit-protocol/uint8arrays';
+import { uint8arrayToString } from '@overdive/uint8arrays';
 
 // Same as:
 // const unifiedAccs = [

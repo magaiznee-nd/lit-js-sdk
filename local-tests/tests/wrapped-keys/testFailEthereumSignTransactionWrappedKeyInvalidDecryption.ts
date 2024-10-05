@@ -1,14 +1,14 @@
-import { log } from '@lit-protocol/misc';
+import { log } from '@overdive/misc';
 import { ethers } from 'ethers';
 import { TinnyEnvironment } from 'local-tests/setup/tinny-environment';
-import { EthereumLitTransaction } from '@lit-protocol/wrapped-keys';
+import { EthereumLitTransaction } from '@overdive/wrapped-keys';
 import { getPkpSessionSigs } from 'local-tests/setup/session-sigs/get-pkp-session-sigs';
 import { getPkpAccessControlCondition } from 'packages/wrapped-keys/src/lib/utils';
-import { encryptString } from '@lit-protocol/encryption';
+import { encryptString } from '@overdive/encryption';
 import { LIT_PREFIX } from 'packages/wrapped-keys/src/lib/constants';
 import { LIT_ACTION_CID_REPOSITORY } from '../../../packages/wrapped-keys/src/lib/lit-actions-client/constants';
 import { getBaseTransactionForNetwork } from './util';
-import { GLOBAL_OVERWRITE_IPFS_CODE_BY_NETWORK } from '@lit-protocol/constants';
+import { GLOBAL_OVERWRITE_IPFS_CODE_BY_NETWORK } from '@overdive/constants';
 
 /**
  * Test Commands:

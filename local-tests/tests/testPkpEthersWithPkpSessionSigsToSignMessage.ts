@@ -1,4 +1,4 @@
-import { PKPEthersWallet } from '@lit-protocol/pkp-ethers';
+import { PKPEthersWallet } from '@overdive/pkp-ethers';
 import { getPkpSessionSigs } from 'local-tests/setup/session-sigs/get-pkp-session-sigs';
 import { TinnyEnvironment } from 'local-tests/setup/tinny-environment';
 

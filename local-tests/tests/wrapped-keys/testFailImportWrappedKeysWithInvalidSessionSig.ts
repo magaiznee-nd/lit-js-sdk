@@ -1,8 +1,8 @@
 import { TinnyEnvironment } from 'local-tests/setup/tinny-environment';
-import { api } from '@lit-protocol/wrapped-keys';
+import { api } from '@overdive/wrapped-keys';
 import { getPkpSessionSigs } from 'local-tests/setup/session-sigs/get-pkp-session-sigs';
 import { randomSolanaPrivateKey } from 'local-tests/setup/tinny-utils';
-import { AuthSig, SessionSigsMap } from '@lit-protocol/types';
+import { AuthSig, SessionSigsMap } from '@overdive/types';
 
 const { importPrivateKey } = api;
 

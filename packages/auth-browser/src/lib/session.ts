@@ -1,4 +1,4 @@
-import { LIT_SESSION_KEY_URI } from '@lit-protocol/constants';
+import { LIT_SESSION_KEY_URI } from '@overdive/constants';
 
 /**
  *

@@ -5,7 +5,7 @@ This submodule is used for Wrapped Keys which allows you to import any existing 
 ### node.js / browser
 
 ```
-yarn add @lit-protocol/wrapped-keys
+yarn add @overdive/wrapped-keys
 ```
 
 ### Lit Actions Code
@@ -18,13 +18,13 @@ When setting an explicit Lit Action source code repository, Lit Action source co
 
 This can provide performance improvements in some circumstances due to the variable nature of IPFS performance, but with an added overhead in bandwidth used for each request your users make, bundle size and/or app load time depending on your use case.
 
-To use LIT-provided Lit Actions and bundle their source code into your app, use `@lit-protocol/wrapped-keys-lit-actions` or define your own LIT action source code dictionary,
+To use LIT-provided Lit Actions and bundle their source code into your app, use `@overdive/wrapped-keys-lit-actions` or define your own LIT action source code dictionary,
 
 Example using LIT-provided action source code:
 
 ```javascript
-import { litActionRepository } from '@lit-protocol/wrapped-keys-lit-actions';
-import { config, api } from '@lit-protocol/wrapped-keys';
+import { litActionRepository } from '@overdive/wrapped-keys-lit-actions';
+import { config, api } from '@overdive/wrapped-keys';
 
 config.setLitActionsCode({ litActionRepository });
 ```

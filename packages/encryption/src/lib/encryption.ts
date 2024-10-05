@@ -1,9 +1,9 @@
 // @ts-expect-error jszip types don't resolve. :sad_panda:
 import * as JSZip from 'jszip/dist/jszip.js';
 
-import { EITHER_TYPE, ILitError, LIT_ERROR } from '@lit-protocol/constants';
-import { verifySignature } from '@lit-protocol/crypto';
-import { checkType, isBrowser, log, throwError } from '@lit-protocol/misc';
+import { EITHER_TYPE, ILitError, LIT_ERROR } from '@overdive/constants';
+import { verifySignature } from '@overdive/crypto';
+import { checkType, isBrowser, log, throwError } from '@overdive/misc';
 import {
   DecryptRequest,
   DecryptZipFileWithMetadata,
@@ -21,11 +21,11 @@ import {
   EncryptToJsonPayload,
   EncryptToJsonProps,
   DecryptFromJsonProps,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 import {
   uint8arrayFromString,
   uint8arrayToString,
-} from '@lit-protocol/uint8arrays';
+} from '@overdive/uint8arrays';
 
 import { safeParams } from './params-validators';
 /**

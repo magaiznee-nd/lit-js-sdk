@@ -31,19 +31,19 @@ export {
   verifyJwt,
   zipAndEncryptFiles,
   zipAndEncryptString,
-} from '@lit-protocol/encryption';
+} from '@overdive/encryption';
 
 export {
   hashResourceIdForSigning,
   humanizeAccessControlConditions,
-} from '@lit-protocol/access-control-conditions';
+} from '@overdive/access-control-conditions';
 
 export {
   base64StringToBlob,
   blobToBase64String,
-} from '@lit-protocol/misc-browser';
+} from '@overdive/misc-browser';
 
 export {
   uint8arrayFromString,
   uint8arrayToString,
-} from '@lit-protocol/uint8arrays';
+} from '@overdive/uint8arrays';

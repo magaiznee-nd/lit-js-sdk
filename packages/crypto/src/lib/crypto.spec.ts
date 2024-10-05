@@ -1,4 +1,4 @@
-import { initWasmEcdsaSdk } from '@lit-protocol/ecdsa-sdk';
+import { initWasmEcdsaSdk } from '@overdive/ecdsa-sdk';
 import {
   decryptWithSignatureShares,
   encrypt,
@@ -11,7 +11,7 @@ import {
 import * as ethers from 'ethers';
 import { joinSignature } from 'ethers/lib/utils';
 
-import * as blsSdk from '@lit-protocol/bls-sdk';
+import * as blsSdk from '@overdive/bls-sdk';
 
 const publicKey =
   '8e29447d7b0666fe41c357dbbdbdac0ac8ac973f88439a07f85fa31fa6fa3cea87c2eaa8b367e1c97764800fb5636892';

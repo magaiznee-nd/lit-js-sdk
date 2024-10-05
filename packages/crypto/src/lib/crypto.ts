@@ -1,24 +1,24 @@
 // @ts-nocheck
 
-import * as blsSdk from '@lit-protocol/bls-sdk';
+import * as blsSdk from '@overdive/bls-sdk';
 
-import { LIT_ERROR, SessionKeyPair, SigShare } from '@lit-protocol/constants';
+import { LIT_ERROR, SessionKeyPair, SigShare } from '@overdive/constants';
 
-import * as ecdsaSdk from '@lit-protocol/ecdsa-sdk';
+import * as ecdsaSdk from '@overdive/ecdsa-sdk';
 
-import * as sevSnpUtilsSdk from '@lit-protocol/sev-snp-utils-sdk';
+import * as sevSnpUtilsSdk from '@overdive/sev-snp-utils-sdk';
 
-import { isBrowser, log, logError, throwError } from '@lit-protocol/misc';
+import { isBrowser, log, logError, throwError } from '@overdive/misc';
 
 import {
   uint8arrayFromString,
   uint8ArrayToBase64,
   uint8arrayToString,
-} from '@lit-protocol/uint8arrays';
+} from '@overdive/uint8arrays';
 
-import { nacl } from '@lit-protocol/nacl';
-import { LIT_CURVE } from '@lit-protocol/constants';
-import { CombinedECDSASignature } from '@lit-protocol/types';
+import { nacl } from '@overdive/nacl';
+import { LIT_CURVE } from '@overdive/constants';
+import { CombinedECDSASignature } from '@overdive/types';
 
 const LIT_CORS_PROXY = `https://cors.litgateway.com`;
 

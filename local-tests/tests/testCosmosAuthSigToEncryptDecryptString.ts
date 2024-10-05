@@ -1,5 +1,5 @@
-import * as LitJsSdk from '@lit-protocol/lit-node-client-nodejs';
-import { ILitNodeClient } from '@lit-protocol/types';
+import * as LitJsSdk from '@overdive/lit-node-client-nodejs';
+import { ILitNodeClient } from '@overdive/types';
 import { AccessControlConditions } from 'local-tests/setup/accs/accs';
 import { LIT_TESTNET } from 'local-tests/setup/tinny-config';
 import { TinnyEnvironment } from 'local-tests/setup/tinny-environment';

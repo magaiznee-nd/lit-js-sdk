@@ -1,15 +1,15 @@
-import { log } from '@lit-protocol/misc';
+import { log } from '@overdive/misc';
 import {
   ClaimRequest,
   ClaimResult,
   ClientClaimProcessor,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 import { TinnyEnvironment } from 'local-tests/setup/tinny-environment';
 import {
   EthWalletProvider,
   LitAuthClient,
-} from '@lit-protocol/lit-auth-client';
-import { ProviderType } from '@lit-protocol/constants';
+} from '@overdive/lit-auth-client';
+import { ProviderType } from '@overdive/constants';
 import { withTimeout } from 'local-tests/setup/tinny-utils';
 
 /**

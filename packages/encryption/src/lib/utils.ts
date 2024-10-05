@@ -3,7 +3,7 @@ import {
   EvmContractConditions,
   SolRpcConditions,
   UnifiedAccessControlConditions,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 
 export function isTokenOperator(token: any): boolean {
   const OPERATORS = ['and', 'or']; // Only permissible boolean operators on the nodes

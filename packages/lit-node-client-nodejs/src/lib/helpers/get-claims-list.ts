@@ -1,4 +1,4 @@
-import { ClaimsList, NodeShare } from '@lit-protocol/types';
+import { ClaimsList, NodeShare } from '@overdive/types';
 
 /**
  * Retrieves a list of claims from the provided response data.

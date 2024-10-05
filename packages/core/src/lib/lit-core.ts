@@ -13,7 +13,7 @@ import {
   validateEVMContractConditionsSchema,
   validateSolRpcConditionsSchema,
   validateUnifiedAccessControlConditionsSchema,
-} from '@lit-protocol/access-control-conditions';
+} from '@overdive/access-control-conditions';
 import {
   CENTRALISATION_BY_NETWORK,
   HTTP,
@@ -28,14 +28,14 @@ import {
   RPC_URL_BY_NETWORK,
   StakingStates,
   version,
-} from '@lit-protocol/constants';
-import { LitContracts } from '@lit-protocol/contracts-sdk';
+} from '@overdive/constants';
+import { LitContracts } from '@overdive/contracts-sdk';
 import {
   checkSevSnpAttestation,
   computeHDPubKey,
   loadModules,
   unloadModules,
-} from '@lit-protocol/crypto';
+} from '@overdive/crypto';
 import {
   bootstrapLogManager,
   isBrowser,
@@ -47,7 +47,7 @@ import {
   mostCommonString,
   sendRequest,
   throwError,
-} from '@lit-protocol/misc';
+} from '@overdive/misc';
 import {
   AuthSig,
   BlockHashErrorResponse,
@@ -68,10 +68,10 @@ import {
   SessionSigsMap,
   SuccessNodePromises,
   SupportedJsonRequests,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 
 import { composeLitUrl } from './endpoint-version';
-import { LogLevel } from '@lit-protocol/logger';
+import { LogLevel } from '@overdive/logger';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 type Listener = (...args: any[]) => void;

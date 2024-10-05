@@ -1,12 +1,12 @@
 import { ethers } from 'ethers';
 
-import { log } from '@lit-protocol/misc';
+import { log } from '@overdive/misc';
 import {
   AccsDefaultParams,
   AuthSig,
   SessionKeySignedMessage,
   SessionSigsMap,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 
 import { CHAIN_ETHEREUM } from './constants';
 

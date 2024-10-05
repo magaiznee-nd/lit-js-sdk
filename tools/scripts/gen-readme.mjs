@@ -87,8 +87,8 @@ libs.map((lib) => {
 
 let rows = [...bundled, ...universals, ...browsers, ...nodejs];
 let mainModules = [
-  '@lit-protocol/lit-node-client',
-  '@lit-protocol/lit-node-client-nodejs',
+  '@overdive/lit-node-client',
+  '@overdive/lit-node-client-nodejs',
 ];
 let mainRows = [];
 let otherRows = [];
@@ -103,14 +103,14 @@ rows.forEach((row) => {
   }
 });
 
-// sort main rows to have @lit-protocol/lit-node-client at the top
+// sort main rows to have @overdive/lit-node-client at the top
 mainRows = mainRows.sort((a, b) => {
   const aName = a.split('|')[1].trim();
   const bName = b.split('|')[1].trim();
-  if (aName.includes('@lit-protocol/lit-node-client')) {
+  if (aName.includes('@overdive/lit-node-client')) {
     return -1;
   }
-  if (bName.includes('@lit-protocol/lit-node-client')) {
+  if (bName.includes('@overdive/lit-node-client')) {
     return 1;
   }
   return 0;

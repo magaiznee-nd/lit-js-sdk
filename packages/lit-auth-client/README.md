@@ -11,7 +11,7 @@ Check out the [API reference](https://docs.lit-js-sdk-v2.litprotocol.com/modules
 Get started by installing the package:
 
 ```bash
-yarn add @lit-protocol/lit-auth-client
+yarn add @overdive/lit-auth-client
 ```
 
 ## 🙌 Contributing

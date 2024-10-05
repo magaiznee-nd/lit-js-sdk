@@ -3,9 +3,9 @@ import {
   ILitResource,
   LitAbility,
   LitResourcePrefix,
-} from '@lit-protocol/types';
-import { hashAccessControlConditions } from '@lit-protocol/access-control-conditions';
-import { uint8arrayToString } from '@lit-protocol/uint8arrays';
+} from '@overdive/types';
+import { hashAccessControlConditions } from '@overdive/access-control-conditions';
+import { uint8arrayToString } from '@overdive/uint8arrays';
 import { formatPKPResource } from './utils';
 
 abstract class LitResourceBase {

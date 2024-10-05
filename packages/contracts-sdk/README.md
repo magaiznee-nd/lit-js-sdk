@@ -7,13 +7,13 @@ Demo: https://demo-contracts-sdk-react.vercel.app/
 # Installation
 
 ```js
-yarn add @lit-protocol/contracts-sdk
+yarn add @overdive/contracts-sdk
 ```
 
 # Vanilla JS (UMD)
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@lit-protocol/contracts-sdk-vanilla/contracts-sdk.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@overdive/contracts-sdk-vanilla/contracts-sdk.js"></script>
 <script>
   (async () => {
     const { LitContracts } = LitJsSdk_contractsSdk;

@@ -14,7 +14,7 @@
     "build:verify": "yarn tools --verify",
     "bundles": "yarn node ./esbuilder/lit-connect-modal/esbuild.js",
     "postBuild:mapDistFolderNameToPackageJson": "node ./tools/scripts/map-dist-folder-name-to-package-json.mjs",
-    "postBuild:mapDepsToDist": "node tools/scripts/map-deps-to-dist.mjs packages dist @lit-protocol",
+    "postBuild:mapDepsToDist": "node tools/scripts/map-deps-to-dist.mjs packages dist @overdive",
     "test:ci": "nx affected --target=test --all --code-coverage",
     "test:local": "node ./local-tests/build.mjs && dotenvx run --env-file=.env -- node ./local-tests/build/test.mjs",
     "test:unit": "nx run-many --target=test",
@@ -41,8 +41,6 @@
     "@cosmjs/proto-signing": "0.30.1",
     "@cosmjs/stargate": "0.30.1",
     "@dotenvx/dotenvx": "^1.6.4",
-    "@lit-protocol/accs-schemas": "^0.0.13",
-    "@lit-protocol/contracts": "^0.0.63",
     "@metamask/eth-sig-util": "5.0.2",
     "@mysten/sui.js": "^0.37.1",
     "@simplewebauthn/browser": "^7.2.0",
@@ -82,7 +80,9 @@
     "tslib": "^2.3.0",
     "tweetnacl": "^1.0.3",
     "tweetnacl-util": "^0.15.1",
-    "uint8arrays": "^4.0.3"
+    "uint8arrays": "^4.0.3",
+    "@overdive/accs-schemas": "^0.0.13",
+    "@overdive/contracts": "^0.0.63"
   },
   "devDependencies": {
     "@nx/esbuild": "^17.3.0",

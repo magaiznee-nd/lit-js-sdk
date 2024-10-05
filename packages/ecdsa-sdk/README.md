@@ -9,13 +9,13 @@ https://github.com/LIT-Protocol/lit-ecdsa-wasm-combine
 ### node.js / browser
 
 ```
-yarn add @lit-protocol/ecdsa-sdk
+yarn add @overdive/ecdsa-sdk
 ```
 
 ### Vanilla JS (UMD)
 
 ```js
-<script src="https://cdn.jsdelivr.net/npm/@lit-protocol/ecdsa-sdk-vanilla/ecdsa-sdk.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@overdive/ecdsa-sdk-vanilla/ecdsa-sdk.js"></script>
 <script>
   console.log(LitJsSdk_ecdsaSdk);
 </script>

@@ -68,7 +68,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - [#57](https://github.com/LIT-Protocol/js-sdk/pull/57) Introducing the pkp-client package, which serves as an abstraction of the pkp-ether, pkp-cosmos, and pkp-base packages. This enables the creation of Ether and Cosmos signers through PKPClient.
 
-- [#97](https://github.com/LIT-Protocol/js-sdk/pull/97) Fixed `warn  - ./node_modules/@lit-protocol/ecdsa-sdk/src/lib/ecdsa-sdk.js Critical dependency: the request of a dependency is an expression`
+- [#97](https://github.com/LIT-Protocol/js-sdk/pull/97) Fixed `warn  - ./node_modules/@overdive/ecdsa-sdk/src/lib/ecdsa-sdk.js Critical dependency: the request of a dependency is an expression`
 
 ## [2.1.114] - 2023-04-08
 
@@ -88,7 +88,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [2.1.63] - 2023-03-13
 
-- [[#44](https://github.com/LIT-Protocol/js-sdk/pull/44)] Separated Node Code into its own repository `@lit-protocol/lit-node-client-nodejs`, from which `@lit-protocol/lit-node-client` will extend, so there are no breaking changes for existing customers.
+- [[#44](https://github.com/LIT-Protocol/js-sdk/pull/44)] Separated Node Code into its own repository `@overdive/lit-node-client-nodejs`, from which `@overdive/lit-node-client` will extend, so there are no breaking changes for existing customers.
 
 ### Added
 

@@ -1,4 +1,4 @@
-import { AuthMethodType } from '@lit-protocol/constants';
+import { AuthMethodType } from '@overdive/constants';
 import { BaseProvider } from './BaseProvider';
 import {
   BaseAuthenticateOptions,
@@ -7,7 +7,7 @@ import {
   StytchOtpProviderOptions,
   StytchOtpAuthenticateOptions,
   StytchToken,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 
 import {
   FactorParser,

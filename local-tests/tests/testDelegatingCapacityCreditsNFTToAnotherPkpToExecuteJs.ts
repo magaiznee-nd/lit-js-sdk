@@ -2,10 +2,10 @@ import {
   AuthMethodScope,
   AuthMethodType,
   LIT_ENDPOINT_VERSION,
-} from '@lit-protocol/constants';
-import { LitAuthClient } from '@lit-protocol/lit-auth-client';
-import { LitActionResource, LitPKPResource } from '@lit-protocol/auth-helpers';
-import { LitAbility } from '@lit-protocol/types';
+} from '@overdive/constants';
+import { LitAuthClient } from '@overdive/lit-auth-client';
+import { LitActionResource, LitPKPResource } from '@overdive/auth-helpers';
+import { LitAbility } from '@overdive/types';
 import { TinnyEnvironment } from 'local-tests/setup/tinny-environment';
 import { LIT_TESTNET } from 'local-tests/setup/tinny-config';
 

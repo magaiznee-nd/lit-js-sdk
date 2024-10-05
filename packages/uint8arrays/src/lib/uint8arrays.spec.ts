@@ -3,7 +3,7 @@ import {
   uint8arrayToString,
   base64ToUint8Array,
 } from './uint8arrays';
-import { base64StringToBlob } from '@lit-protocol/misc-browser';
+import { base64StringToBlob } from '@overdive/misc-browser';
 
 describe('Encoding Functions', () => {
   const testCases = [

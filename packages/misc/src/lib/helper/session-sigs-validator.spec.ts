@@ -1,4 +1,4 @@
-import { AuthSig } from '@lit-protocol/types';
+import { AuthSig } from '@overdive/types';
 import { validateSessionSigs } from './session-sigs-validator';
 
 describe('validateSessionSigs', () => {

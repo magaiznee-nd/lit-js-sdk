@@ -4,7 +4,7 @@ global.TextEncoder = TextEncoder;
 // @ts-ignore
 global.TextDecoder = TextDecoder;
 
-import { LitErrorKind, LIT_ERROR, CAYENNE_URL } from '@lit-protocol/constants';
+import { LitErrorKind, LIT_ERROR, CAYENNE_URL } from '@overdive/constants';
 import * as utilsModule from './misc';
 
 describe('utils', () => {

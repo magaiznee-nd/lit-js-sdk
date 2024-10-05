@@ -2,7 +2,7 @@ import {
   AuthSig,
   SessionKeySignedMessage,
   SessionSigsMap,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 
 import { CHAIN_ETHEREUM } from './constants';
 import {

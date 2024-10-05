@@ -5,7 +5,7 @@ import {
   CapacityDelegationRequest,
   ILitNodeClient,
   LitResourceAbilityRequest,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 
 /**
  * Sanitizes a SIWE message by unescaping double-escaped newlines and replacing escaped double quotes with single quotes.

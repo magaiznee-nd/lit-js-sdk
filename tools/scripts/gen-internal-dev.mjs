@@ -1,6 +1,6 @@
 import { ethers } from 'ethers';
 import fs from 'fs/promises';
-import { _internalDev } from '@lit-protocol/contracts';
+import { _internalDev } from '@overdive/contracts';
 
 function removeKickedValidators(activeValidators, kickedValidators) {
   return activeValidators.filter(

@@ -2,7 +2,7 @@ import {
   LPACC_EVM_ATOM,
   LPACC_EVM_BASIC,
   LPACC_SOL,
-} from '@lit-protocol/accs-schemas';
+} from '@overdive/accs-schemas';
 
 export namespace AccessControlConditions {
   export const getEmvBasicAccessControlConditions = ({

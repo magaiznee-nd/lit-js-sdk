@@ -6,9 +6,9 @@ import {
   LIT_CHAINS,
   LIT_ERROR,
   LOCAL_STORAGE_KEYS,
-} from '@lit-protocol/constants';
+} from '@overdive/constants';
 
-import { AuthSig, AuthCallbackParams } from '@lit-protocol/types';
+import { AuthSig, AuthCallbackParams } from '@overdive/types';
 
 import { ethers } from 'ethers';
 // import WalletConnectProvider from '@walletconnect/ethereum-provider';
@@ -40,8 +40,8 @@ import {
   numberToHex,
   throwError,
   validateSessionSig,
-} from '@lit-protocol/misc';
-import { getStorageItem } from '@lit-protocol/misc-browser';
+} from '@overdive/misc';
+import { getStorageItem } from '@overdive/misc-browser';
 
 if (globalThis && typeof globalThis.Buffer === 'undefined') {
   globalThis.Buffer = BufferPolyfill;

@@ -1,11 +1,11 @@
 import { LIT_TESTNET } from 'local-tests/setup/tinny-config';
-import * as LitJsSdk from '@lit-protocol/lit-node-client-nodejs';
-import { ILitNodeClient, LitAbility } from '@lit-protocol/types';
+import * as LitJsSdk from '@overdive/lit-node-client-nodejs';
+import { ILitNodeClient, LitAbility } from '@overdive/types';
 import { AccessControlConditions } from 'local-tests/setup/accs/accs';
-import { LitAccessControlConditionResource } from '@lit-protocol/auth-helpers';
+import { LitAccessControlConditionResource } from '@overdive/auth-helpers';
 import { getPkpSessionSigs } from 'local-tests/setup/session-sigs/get-pkp-session-sigs';
 import { TinnyEnvironment } from 'local-tests/setup/tinny-environment';
-import { log } from '@lit-protocol/misc';
+import { log } from '@overdive/misc';
 import { getLitActionSessionSigs } from 'local-tests/setup/session-sigs/get-lit-action-session-sigs';
 
 /**

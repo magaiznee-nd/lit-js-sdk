@@ -7,7 +7,7 @@ It provides the functionalities to register supported wallets (\_registerSupport
 # Getting Started
 
 ```
-yarn add @lit-protocol/pkp-client
+yarn add @overdive/pkp-client
 ```
 
 # Init

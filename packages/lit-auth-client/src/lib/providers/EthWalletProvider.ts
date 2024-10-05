@@ -1,19 +1,19 @@
 import { ethers } from 'ethers';
 import { SiweMessage } from 'siwe';
 
-import { LIT_CHAINS, AuthMethodType } from '@lit-protocol/constants';
+import { LIT_CHAINS, AuthMethodType } from '@overdive/constants';
 import {
   LitNodeClient,
   checkAndSignAuthMessage,
-} from '@lit-protocol/lit-node-client';
-import { log } from '@lit-protocol/misc';
+} from '@overdive/lit-node-client';
+import { log } from '@overdive/misc';
 import {
   AuthMethod,
   AuthSig,
   BaseProviderOptions,
   EthWalletProviderOptions,
   EthWalletAuthenticateOptions,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 
 import { BaseProvider } from './BaseProvider';
 

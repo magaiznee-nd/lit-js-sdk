@@ -1,12 +1,12 @@
-import { PKP_CLIENT_SUPPORTED_CHAINS } from '@lit-protocol/constants';
-import { log } from '@lit-protocol/misc';
-import { PKPCosmosWallet } from '@lit-protocol/pkp-cosmos';
-import { PKPEthersWallet } from '@lit-protocol/pkp-ethers';
+import { PKP_CLIENT_SUPPORTED_CHAINS } from '@overdive/constants';
+import { log } from '@overdive/misc';
+import { PKPCosmosWallet } from '@overdive/pkp-cosmos';
+import { PKPEthersWallet } from '@overdive/pkp-ethers';
 import {
   PKPClientProp,
   PKPCosmosWalletProp,
   PKPEthersWalletProp,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 
 export class PKPClient {
   private cosmosWallet: PKPCosmosWallet | undefined;

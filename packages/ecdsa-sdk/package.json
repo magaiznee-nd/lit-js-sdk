@@ -1,5 +1,5 @@
 {
-  "name": "@lit-protocol/ecdsa-sdk",
+  "name": "@overdive/ecdsa-sdk",
   "license": "MIT",
   "homepage": "https://github.com/Lit-Protocol/js-sdk",
   "repository": {

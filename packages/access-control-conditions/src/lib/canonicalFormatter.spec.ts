@@ -1,4 +1,4 @@
-import { ConditionItem } from '@lit-protocol/types';
+import { ConditionItem } from '@overdive/types';
 import {
   canonicalUnifiedAccessControlConditionFormatter,
   canonicalSolRpcConditionFormatter,

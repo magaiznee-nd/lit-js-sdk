@@ -1,11 +1,11 @@
 /**
  * FIXME: SessionSigs are only supported for EVM chains at the moment.  This will be expanded to other chains in the future.
  */
-import { ALL_LIT_CHAINS, LIT_ERROR, VMTYPE } from '@lit-protocol/constants';
+import { ALL_LIT_CHAINS, LIT_ERROR, VMTYPE } from '@overdive/constants';
 
-import { AuthCallbackParams, AuthSig } from '@lit-protocol/types';
+import { AuthCallbackParams, AuthSig } from '@overdive/types';
 
-import { throwError } from '@lit-protocol/misc';
+import { throwError } from '@overdive/misc';
 import { checkAndSignCosmosAuthMessage } from './chains/cosmos';
 import { checkAndSignEVMAuthMessage } from './chains/eth';
 import { checkAndSignSolAuthMessage } from './chains/sol';

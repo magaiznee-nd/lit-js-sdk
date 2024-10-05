@@ -7,7 +7,7 @@ import {
   LIT_NETWORK,
   LIT_NETWORK_VALUES,
   RELAYER_URL_BY_NETWORK,
-} from '@lit-protocol/constants';
+} from '@overdive/constants';
 
 import {
   Chain,
@@ -25,11 +25,11 @@ import {
   RelayClaimProcessor,
   SuccessNodePromises,
   RejectedNodePromises,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 import { JsonRpcProvider } from '@ethersproject/providers';
 import { Contract } from '@ethersproject/contracts';
-import { LogLevel, LogManager } from '@lit-protocol/logger';
-import { version } from '@lit-protocol/constants';
+import { LogLevel, LogManager } from '@overdive/logger';
+import { version } from '@overdive/constants';
 import Ajv, { JSONSchemaType } from 'ajv';
 
 const logBuffer: Array<Array<any>> = [];

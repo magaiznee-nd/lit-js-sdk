@@ -1,6 +1,6 @@
 import { hashMessage } from 'ethers/lib/utils';
 
-import { version } from '@lit-protocol/constants';
+import { version } from '@overdive/constants';
 
 export enum LogLevel {
   OFF = -1,

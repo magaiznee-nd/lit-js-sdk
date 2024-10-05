@@ -2,7 +2,7 @@
 global.jestTesting = true;
 
 import * as LITCONFIG from 'lit.config.json';
-import { PKPClient } from '@lit-protocol/pkp-client';
+import { PKPClient } from '@overdive/pkp-client';
 import { Core } from '@walletconnect/core';
 import { SignClientTypes } from '@walletconnect/types';
 import { getSdkError } from '@walletconnect/utils';

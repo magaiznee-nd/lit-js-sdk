@@ -1,4 +1,4 @@
-import { ProviderType } from '@lit-protocol/constants';
+import { ProviderType } from '@overdive/constants';
 import {
   LitAuthClient,
   GoogleProvider,
@@ -8,9 +8,9 @@ import {
   AppleProvider,
   StytchOtpProvider,
   StytchAuthFactorOtpProvider,
-} from '@lit-protocol/lit-auth-client';
-import { StytchOtpAuthenticateOptions } from '@lit-protocol/types';
-import { AuthMethodType } from '@lit-protocol/constants';
+} from '@overdive/lit-auth-client';
+import { StytchOtpAuthenticateOptions } from '@overdive/types';
+import { AuthMethodType } from '@overdive/constants';
 
 const isClass = (v: unknown) => {
   return typeof v === 'function' && /^\s*class\s+/.test(v.toString());

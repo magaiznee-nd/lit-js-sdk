@@ -1,4 +1,4 @@
-import { PKPSignShare, PkpSignedData } from '@lit-protocol/types';
+import { PKPSignShare, PkpSignedData } from '@overdive/types';
 
 /**
  * Converts a snake_case string to camelCase.

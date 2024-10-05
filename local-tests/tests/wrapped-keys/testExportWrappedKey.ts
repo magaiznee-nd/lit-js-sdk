@@ -1,6 +1,6 @@
-import { log } from '@lit-protocol/misc';
+import { log } from '@overdive/misc';
 import { TinnyEnvironment } from '../../setup/tinny-environment';
-import { api } from '@lit-protocol/wrapped-keys';
+import { api } from '@overdive/wrapped-keys';
 import { getPkpSessionSigs } from '../../setup/session-sigs/get-pkp-session-sigs';
 import { randomSolanaPrivateKey } from '../../setup/tinny-utils';
 

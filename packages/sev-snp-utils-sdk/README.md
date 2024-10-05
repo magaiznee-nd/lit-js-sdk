@@ -7,13 +7,13 @@ https://github.com/LIT-Protocol/sev-snp-utils-wasm
 # Installation
 
 ```
-yarn add @lit-protocol/sev-snp-utils-sdk
+yarn add @overdive/sev-snp-utils-sdk
 ```
 
 # Usage
 
 ```js
-import { initSevSnpUtilsSdk } from '@lit-protocol/sev-snp-utils-sdk';
+import { initSevSnpUtilsSdk } from '@overdive/sev-snp-utils-sdk';
 
 initSevSnpUtilsSdk().then((exports) => {
   globalThis.wasmExports = exports;

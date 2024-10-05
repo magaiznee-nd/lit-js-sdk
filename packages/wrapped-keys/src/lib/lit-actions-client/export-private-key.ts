@@ -1,8 +1,8 @@
-import { AccessControlConditions } from '@lit-protocol/types';
+import { AccessControlConditions } from '@overdive/types';
 
 import { postLitActionValidation } from './utils';
 import { ExportPrivateKeyParams, StoredKeyData } from '../types';
-import { GLOBAL_OVERWRITE_IPFS_CODE_BY_NETWORK } from '@lit-protocol/constants';
+import { GLOBAL_OVERWRITE_IPFS_CODE_BY_NETWORK } from '@overdive/constants';
 
 interface SignMessageWithLitActionParams extends ExportPrivateKeyParams {
   accessControlConditions: AccessControlConditions;

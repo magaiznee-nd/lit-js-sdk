@@ -4,7 +4,7 @@ import {
   IRelayMintResponse,
   IRelayPollStatusResponse,
   LitRelayConfig,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 import { log } from './utils';
 
 /**

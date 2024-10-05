@@ -1,4 +1,4 @@
-import { log } from '@lit-protocol/misc';
+import { log } from '@overdive/misc';
 import { getLitActionSessionSigsUsingIpfsId } from 'local-tests/setup/session-sigs/get-lit-action-session-sigs';
 import { TinnyEnvironment } from 'local-tests/setup/tinny-environment';
 

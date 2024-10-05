@@ -1,4 +1,4 @@
-import { LitContractResolverContext } from '@lit-protocol/types';
+import { LitContractResolverContext } from '@overdive/types';
 import { ethers } from 'ethers';
 import { PKPPermissions } from '../../dist/packages/contracts-sdk/src/abis/PKPPermissions.sol/PKPPermissions';
 import {

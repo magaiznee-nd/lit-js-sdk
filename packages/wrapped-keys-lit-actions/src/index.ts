@@ -6,7 +6,7 @@ import * as generateEncryptedSolanaPrivateKey from './generated/solana/generateE
 import * as signMessageWithSolanaEncryptedKey from './generated/solana/signMessageWithSolanaEncryptedKey';
 import * as signTransactionWithSolanaEncryptedKey from './generated/solana/signTransactionWithSolanaEncryptedKey';
 
-import type { LitActionCodeRepository } from '@lit-protocol/wrapped-keys';
+import type { LitActionCodeRepository } from '@overdive/wrapped-keys';
 
 const litActionRepository: LitActionCodeRepository = {
   signTransaction: {

@@ -3,8 +3,8 @@ import {
   BaseProviderOptions,
   MintRequestBody,
   WebAuthnProviderOptions,
-} from '@lit-protocol/types';
-import { AuthMethodType } from '@lit-protocol/constants';
+} from '@overdive/types';
+import { AuthMethodType } from '@overdive/constants';
 import { ethers } from 'ethers';
 import {
   PublicKeyCredentialCreationOptionsJSON,

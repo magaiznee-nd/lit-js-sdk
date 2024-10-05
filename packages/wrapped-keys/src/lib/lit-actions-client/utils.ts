@@ -1,4 +1,4 @@
-import { ExecuteJsResponse } from '@lit-protocol/types';
+import { ExecuteJsResponse } from '@overdive/types';
 
 import { litActionCodeRepository } from './code-repository';
 import { LIT_ACTION_CID_REPOSITORY } from './constants';

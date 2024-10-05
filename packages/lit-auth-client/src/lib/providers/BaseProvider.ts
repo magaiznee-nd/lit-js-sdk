@@ -1,5 +1,5 @@
-import { ALL_LIT_CHAINS, AuthMethodType } from '@lit-protocol/constants';
-import { LitNodeClient } from '@lit-protocol/lit-node-client';
+import { ALL_LIT_CHAINS, AuthMethodType } from '@overdive/constants';
+import { LitNodeClient } from '@overdive/lit-node-client';
 import {
   AuthCallback,
   AuthCallbackParams,
@@ -18,7 +18,7 @@ import {
   RelayClaimProcessor,
   SessionSigs,
   SignSessionKeyResponse,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 import { ethers } from 'ethers';
 import { validateMintRequestBody } from '../validators';
 

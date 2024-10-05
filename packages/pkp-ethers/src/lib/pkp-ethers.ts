@@ -35,14 +35,14 @@ import {
 import { Wordlist } from '@ethersproject/wordlists';
 import { ethers, version, Wallet } from 'ethers';
 
-import { RPC_URL_BY_NETWORK } from '@lit-protocol/constants';
-import { PKPBase } from '@lit-protocol/pkp-base';
+import { RPC_URL_BY_NETWORK } from '@overdive/constants';
+import { PKPBase } from '@overdive/pkp-base';
 import {
   PKPClientHelpers,
   PKPEthersWalletProp,
   PKPWallet,
   SigResponse,
-} from '@lit-protocol/types';
+} from '@overdive/types';
 
 import { ethRequestHandler } from './handler';
 import { getTransactionToSign, isSignedTransaction } from './helper';

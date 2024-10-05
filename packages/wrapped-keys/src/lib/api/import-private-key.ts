@@ -1,4 +1,4 @@
-import { encryptString } from '@lit-protocol/encryption';
+import { encryptString } from '@overdive/encryption';
 
 import { LIT_PREFIX } from '../constants';
 import { storePrivateKey } from '../service-client';
