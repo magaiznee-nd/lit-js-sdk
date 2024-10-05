@@ -973,6 +973,14 @@ export const LIT_SVM_CHAINS: LITChain<LITSVMChain> = {
     blockExplorerUrls: ['https://explorer.solana.com/'],
     vmType: 'SVM',
   },
+  storyProtocolTestnet: {
+    name: 'Story Protocol Testnet',
+    symbol: 'IP',
+    decimals: 18,
+    rpcUrls: ['https://testnet.storyrpc.io'],
+    blockExplorerUrls: ['https://testnet.storyscan.xyz/'],
+    vmType: 'EVM',
+  },
   solanaDevnet: {
     name: 'Solana Devnet',
     symbol: 'SOL',

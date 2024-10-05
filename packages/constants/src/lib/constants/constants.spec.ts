@@ -33,6 +33,7 @@ describe('constants', () => {
     'evmosTestnet',
     'bscTestnet',
     'baseGoerli',
+    'storyProtocolTestnet',
   ];
 
   const MUST_HAVE_SOL_CHAINS = ['solana', 'solanaDevnet', 'solanaTestnet'];
